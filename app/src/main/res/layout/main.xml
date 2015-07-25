@@ -1,0 +1,14 @@
+<ViewFlipper
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_flipper"
+    android:autoStart="true"
+    android:flipInterval="3000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <include layout="@layout/intro" />
+    <include layout="@layout/rect" />
+    <include layout="@layout/rect2" />
+    <include layout="@layout/rect3" />
+    <include layout="@layout/ovals" />
+</ViewFlipper>

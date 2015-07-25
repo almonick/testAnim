@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">testAnim</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">XML Drawables 1</string>
+
+    <string name="intro_text">This project is a supplement to Part I of my blog post on XML drawables. This app flipps through the</string>
+
+</resources>

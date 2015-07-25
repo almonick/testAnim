@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_search_url_text_normal"
+    android:orientation="vertical" >
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/ring_shape"
+    android:scaleType="fitCenter"
+    android:background="@android:color/holo_purple"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle_shape"
+        android:scaleType="fitEnd"/>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0055aa">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dash_line"
+            android:scaleType="fitCenter"
+            />
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/shape_container"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#994433">
+
+        <ImageView
+            android:id="@+id/image_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            />
+
+    </FrameLayout>
+
+
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/black_line"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:scaleType="centerInside"
+        android:background="#bb4466"
+        />
+
+
+    <FrameLayout
+            android:id="@+id/pigen_layout"
+
+android:layout_gravity="center_horizontal|bottom"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/accent_material_light"
+
+    >
+
+            <ImageView
+                android:id="@+id/pigen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/id_pigeon"
+                android:scaleType="fitEnd" />
+
+            <ImageView
+                android:id="@+id/pigen_glass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/id_pigeon_glass"
+                android:transformPivotY="107dp"
+                android:transformPivotX="120dp"
+                android:scaleType="fitEnd" />
+        </FrameLayout>
+
+
+</LinearLayout>

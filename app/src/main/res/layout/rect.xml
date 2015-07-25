@@ -1,0 +1,11 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="@drawable/shape_green_rect">
+	
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This light green background with a dark green border is done by setting the background of the main layout to @drawable/shape_green_rect\n\nThe margins between the text and the edge of the screen are defined by the drawable."/>
+</RelativeLayout>
